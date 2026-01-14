@@ -11,10 +11,10 @@ String baseURL = "http://10.63.87.202/irigation_esp32/api";
 
 /* ================= PIN ================= */
 #define SOIL_PIN   34
-#define RELAY_PIN  14   // relay aktif LOW
+#define RELAY_PIN  16   // relay aktif LOW
 #define LED_MERAH  25
 #define LED_HIJAU  26
-#define BUZZER_PIN 5
+#define BUZZER_PIN 27
 
 /* ================= GLOBAL ================= */
 int soilADC     = 0;
